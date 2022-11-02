@@ -1,0 +1,112 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BlueHeart.png" />
+    <None Remove="BlueHeartShattered.png" />
+    <None Remove="EasyMode.mp3" />
+    <None Remove="EasyMode.wav" />
+    <None Remove="HardMode.mp3" />
+    <None Remove="HardMode.wav" />
+    <None Remove="NoHitMode.mp3" />
+    <None Remove="NoHitMode.wav" />
+    <None Remove="NormalMode.mp3" />
+    <None Remove="NormalMode.wav" />
+    <None Remove="RedHeart.png" />
+    <None Remove="RedHeartShattered.png" />
+    <None Remove="Sprites\BlueHeart.png" />
+    <None Remove="Sprites\BlueHeartShattered.png" />
+    <None Remove="Sprites\RedHeart.png" />
+    <None Remove="Sprites\RedHeartShattered.png" />
+    <None Remove="Sprites\WPF_aggresiveFace.png" />
+    <None Remove="Sprites\WPF_aggresiveFace.xcf" />
+    <None Remove="Sprites\WPF_DeathFace.png" />
+    <None Remove="Sprites\WPF_DeathFace.xcf" />
+    <None Remove="Sprites\WPF_HappyFace.png" />
+    <None Remove="Sprites\WPF_HappyFace.xcf" />
+    <None Remove="Sprites\WPF_hitFace.png" />
+    <None Remove="Sprites\WPF_hitFace.xcf" />
+    <None Remove="Sprites\WPF_normalFace.png" />
+    <None Remove="Sprites\WPF_normalFace.xcf" />
+    <None Remove="WPF_aggresiveFace.png" />
+    <None Remove="WPF_DeathFace.png" />
+    <None Remove="WPF_HappyFace.png" />
+    <None Remove="WPF_hitFace.png" />
+    <None Remove="WPF_normalFace.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="EasyMode.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="EasyMode.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="HardMode.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="HardMode.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="NoHitMode.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="NoHitMode.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="NormalMode.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="NormalMode.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\BlueHeart.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\BlueHeartShattered.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\RedHeart.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\RedHeartShattered.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\WPF_aggresiveFace.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\WPF_aggresiveFace.xcf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\WPF_DeathFace.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\WPF_DeathFace.xcf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\WPF_HappyFace.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\WPF_HappyFace.xcf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\WPF_hitFace.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\WPF_hitFace.xcf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\WPF_normalFace.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\WPF_normalFace.xcf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
